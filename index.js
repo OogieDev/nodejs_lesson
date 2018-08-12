@@ -6,3 +6,4 @@ function wrr(argss){
     console.log('a');
 }
 lodash.delay(wrr, 1000, 'abs');
+console.log('bbbb');
