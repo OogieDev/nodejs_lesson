@@ -11,20 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="76" selection-start-column="76" selection-end-column="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Car.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Car.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="119">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -44,8 +35,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/Car.js" />
+        <option value="$PROJECT_DIR$/index.js" />
       </list>
     </option>
   </component>
@@ -55,12 +46,22 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="675" />
-    <option name="y" value="118" />
+    <option name="x" value="613" />
+    <option name="y" value="219" />
     <option name="width" value="771" />
     <option name="height" value="517" />
   </component>
@@ -112,15 +113,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534031290475</updated>
-      <workItem from="1534031292923" duration="1179000" />
+      <workItem from="1534031292923" duration="2695000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1179000" />
+    <option name="totallyTimeSpent" value="2695000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="675" y="118" width="771" height="517" extended-state="0" />
+    <frame x="613" y="219" width="771" height="517" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24900663" />
@@ -151,17 +152,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.js">
+    <entry file="file://$PROJECT_DIR$/Car.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="76" selection-start-column="76" selection-end-column="76" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Car.js">
+    <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="119">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
         </state>
       </provider>
     </entry>

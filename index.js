@@ -1,6 +1,8 @@
-// var Car = require('./Car').Car; //Подключаем класс по передаваемому имени
-var Car = require('./Car').CarClass; //Подключаем класс по передаваемому имени
+var lodash = require('lodash');
 
+console.log(lodash.sum([4,6]));
 
-var bmw = new Car('BMW');
-bmw.logName();
+function wrr(argss){
+    console.log('a');
+}
+lodash.delay(wrr, 1000, 'abs');
