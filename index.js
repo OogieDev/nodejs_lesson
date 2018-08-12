@@ -1,23 +1,12 @@
-var fs = require('fs');
+var http = require('http');
 
-fs.writeFile('text.txt', 'Hello world', function (err) {
-    if(err) throw new Error(err);
 
-    fs.rename('text.txt', 'text2.txt', function (err) {
-        if(err) throw new Error(err);
-    });
-    
-    fs.readFile('text2.txt', function (err, data) {
-        if(err) throw new Error();
+var server = new http.Server;
 
-        console.log(data.toString());
-    });
+server.listen(80, '127.0.0.1');
+
+var counter = 0;
+
+server.on('request', function (req, res) {
+    res.end('hello server' + ++counter);
 });
-
-console.log('ok');
-
-//
-// fs.writeFileSync('test.txt', 'Привет мир');
-//
-// var data = fs.readFileSync('test.txt', {encoding: 'utf-8'});
-// console.log(data);
