@@ -1,44 +1,23 @@
-var EventEmitter = require('events').EventEmitter;
+var fs = require('fs');
 
-var dispatcher = new EventEmitter();
+fs.writeFile('text.txt', 'Hello world', function (err) {
+    if(err) throw new Error(err);
 
-dispatcher.on('connect', function (data) {
-    console.log('Connect 1', data);
+    fs.rename('text.txt', 'text2.txt', function (err) {
+        if(err) throw new Error(err);
+    });
+    
+    fs.readFile('text2.txt', function (err, data) {
+        if(err) throw new Error();
+
+        console.log(data.toString());
+    });
 });
 
-dispatcher.on('connect', function (data) {
-   console.log('Connect2', data);
-});
+console.log('ok');
 
-dispatcher.on('error', function (err) {
-    console.log(err);
-})
-
-dispatcher.emit('connect', {foo: 1});
-
-dispatcher.emit('error', new Error('Something went wrong!'));
-
-
-
-
-
-// var util = require('util');
 //
-// function Car(){}
+// fs.writeFileSync('test.txt', 'Привет мир');
 //
-// Car.prototype.logName = function () {
-//     console.log('This name is:', this.name);
-// };
-//
-// function BMW(name) {
-//     this.name = name || 'Unknown bmw model';
-// }
-//
-// BMW.prototype.drive = function(){
-//     console.log('Im driveing!');
-// };
-//
-// util.inherits(BMW, Car);
-//
-// var mbw = new BMW('X6');
-// mbw.logName();
+// var data = fs.readFileSync('test.txt', {encoding: 'utf-8'});
+// console.log(data);
